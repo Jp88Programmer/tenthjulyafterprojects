@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { createContext } from "react";
+import FirstCom from "./UseContext/FirstCom";
 
-function App() {
+// here use component tree when pass data at spacific hierculer compenent than use context()
+// use pass only those data to spacific componenet 
+// here make context and should be as instance of Provider and any component heirecluy structure in inner/child tags 
+// below the exmple see 
+const SecretKey = createContext();
+const Payload = createContext();
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      {/* <h1>this is the app component</h1> */}
+
+      <hr />
+      {/* this is the  make context */}
+      <SecretKey.Provider value={"jayendraparmar%%$#anditsencreptedforus"}>
+        <Payload.Provider
+          value={"jauydjd##@#%DTDH^FFfsdfjfddjfdkfe5e9idkjfdjj"}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <FirstCom />
+        </Payload.Provider>
+      </SecretKey.Provider>
+    </>
   );
-}
+};
 
 export default App;
+
+// must export all context as object 
+export { SecretKey, Payload };

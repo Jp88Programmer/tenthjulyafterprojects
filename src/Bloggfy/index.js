@@ -16,22 +16,18 @@
 // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './Bloggfy/App';
+import React from "react";
+import ReactDOM from "react-dom";
+// import App from "../App";
+// import App from "./App";
 
-// ReactDOM.render(<>
-//   {/* <App /> */}
-//   {/* <UseEffect/> */}
-//   {/* <App1 /> */}
-//   {/* <AppForNavBar /> */}
-//   <App />
-//  </>,document.getElementById('root'));
- 
-
- const root = ReactDOM.createRoot(document.getElementById("root"));
- root.render(
-   <React.StrictMode>
-     <App />
-   </React.StrictMode>
- );
+// ReactDOM.render(
+//   <>
+//     {/* <App /> */}
+//     {/* <UseEffect/> */}
+//     {/* <App1 /> */}
+//     {/* <AppForNavBar /> */}
+    
+//   ,
+//   document.getElementById("root")
+// );

@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title{
+    display: flex;
+    /* gap: 1rem; */
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.title>img{
+    width: 4rem;
+    /* padding: 30px;
+     */
+     /* margin: 10px 10px; */
+}
+
+.title>:nth-child(1){
+    /* width: 5rem; */
+    /* background-color: black; */
+    margin: 10px;
+}
+.title>:nth-child(2){
+    width: 2rem;
+    background-color: black;
+    margin-right: 10px;
+}
