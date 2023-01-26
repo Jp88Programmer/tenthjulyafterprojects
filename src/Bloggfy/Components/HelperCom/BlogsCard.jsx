@@ -32,7 +32,7 @@ const BlogsCard = (props) => {
     case "Education": {
     //   categoryStr = Education;
       categoryStr = "education";
-      console.log("Hello its cate card : ",categoryStr)
+      // console.log("Hello its cate card : ",categoryStr)
       break;
     }
     case "Technology": {

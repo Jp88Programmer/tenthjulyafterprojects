@@ -6,8 +6,8 @@ import fashion from "../asset/fashion.png";
 import nature from "../asset/nature.jpg";
 import finance from "../asset/finance1.png";
 import fitness from "../asset/fintness.png";
-import business from "../asset/business1.jpg"
-import arts from "../asset/arts.jpg"
+import business from "../asset/business1.jpg";
+import arts from "../asset/arts.jpg";
 
 const blogCat = [
   {
@@ -15,35 +15,35 @@ const blogCat = [
     title: "Technology",
   },
   {
-    img:  edu1 ,
+    img: edu1,
     title: "Education",
   },
   {
-    img:  social ,
+    img: social,
     title: "Society",
   },
   {
-    img:  unity,
+    img: unity,
     title: "Unity",
   },
   {
-    img:  arts ,
+    img: arts,
     title: "Arts",
   },
   {
-    img:  nature ,
+    img: nature,
     title: "Nature",
   },
   {
-    img:  business ,
+    img: business,
     title: "Business",
   },
   {
-    img:  finance ,
+    img: finance,
     title: "Finance",
   },
   {
-    img:  fitness ,
+    img: fitness,
     title: "Fitness",
   },
 ];

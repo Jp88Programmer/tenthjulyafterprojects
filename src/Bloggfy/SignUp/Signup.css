@@ -1,0 +1,86 @@
+.signup{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Sign-up {
+    display: flex;
+    margin: 2rem auto;
+    width: 60vw;
+    height: 80vh;
+}
+
+.logo-show {
+    width: 70%;
+    background-color: rgb(243, 117, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup-details {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 1rem; */
+
+}
+
+form {
+    margin: 0px 1rem;
+}
+
+.signup-details div {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+}
+
+.signup-button {
+    margin: 10px 20px;
+    background-color: rgb(243, 117, 39);
+    /* color: rgb(3, 47, 46);
+     */
+    color: white;
+}
+
+.signup-button:hover {
+    /* color: rgb(241, 235, 235); */
+    /* color: rgb(35, 36, 40); */
+    color: white;
+    background-color: rgb(249, 153, 94);
+
+}
+
+.signup-details span:focus {
+    font-size: 0.8rem;
+}
+
+.signup-details input {
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    border-bottom: 2px solid rgb(186, 186, 186);
+    transition: all 0.1s ease-in-out;
+}
+
+.signup-details input:focus {
+
+    /* font-size: 0.8rem; */
+    font-size: 1.2rem;
+    /* color: red;
+     */
+    border-bottom: 3px solid rgb(243, 117, 39);
+
+}

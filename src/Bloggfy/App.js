@@ -15,6 +15,8 @@ import Fitness from "./Components/BlogComponets/Fitness";
 import Nature from "./Components/BlogComponets/Nature";
 import Social from "./Components/BlogComponets/Social";
 import Unity from "./Components/BlogComponets/Unity";
+import Login from "./Login/Login";
+import SignUp from "./SignUp/SignUp";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
           <Route exact path="/blog" element={<Blog />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/service" element={<Service />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/signup" element={<SignUp />}></Route>
           <Route exact path="/blog/education" element={<Education />}></Route>
           <Route path="/blog/technology" element={<Technology />}></Route>
           <Route path="/blog/arts" element={<Arts />}></Route>

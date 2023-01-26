@@ -1,0 +1,87 @@
+.login{
+    display: flex;
+    /* background-color: black; */
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Login {
+    display: flex;
+    /* margin: 2rem auto; */
+    /* width: 100vw; */
+    width: 60vw;
+    height: 80vh;
+}
+
+.logo-show {
+    width: 70%;
+    background-color: rgb(243, 117, 39);
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-show img{
+    width: 7rem;
+
+}
+.logo-show span{
+    color: white;
+    font-size: 3rem;
+
+}
+
+.login-details {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+form {
+    margin: 0px 1rem;
+}
+
+.login-details div {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login-button {
+    margin: 10px 20px;
+    background-color: rgb(243, 117, 39);
+    color: white;
+}
+
+.login-button:hover {
+    color: white;
+    background-color: rgb(249, 153, 94);
+
+}
+
+.login-details span:focus {
+    font-size: 0.8rem;
+}
+
+.login-details input {
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    border-bottom: 2px solid rgb(186, 186, 186);
+    transition: all 0.1s ease-in-out;
+}
+
+.login-details input:focus {
+
+    font-size: 1.2rem;
+    border-bottom: 3px solid rgb(243, 117, 39);
+}

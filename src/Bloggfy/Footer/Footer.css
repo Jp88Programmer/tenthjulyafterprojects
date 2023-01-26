@@ -64,13 +64,11 @@
     font-size: 1rem;
 }
 
+
 .email>input {
     height: 35px;
     border: none;
     width: 20rem;
-
-    /* color: antiquewhite; */
-    /* background: ; */
     background-color: azure;
     outline: none;
     padding: 2px 5px;
